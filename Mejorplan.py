@@ -1,6 +1,4 @@
-# =========================
-# FUNCIONES
-# =========================
+#funciones
 
 def A(x):
     return 40*x + 200
@@ -12,9 +10,7 @@ def C(x):
     return -2*x**2 + 80*x + 100
 
 
-# =========================
-# INGRESO DE DATOS
-# =========================
+#horas elegidas por el cliente
 
 x = int(input("Ingrese cantidad de horas (0 a 50): "))
 
@@ -31,10 +27,8 @@ else:
     print("B(x) =", b)
     print("C(x) =", c)
 
-    # =========================
-    # MEJOR PLAN
-    # =========================
-
+   #plan más apropiado
+    
     menor = a
     plan = "A"
 
